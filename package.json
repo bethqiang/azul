@@ -1,0 +1,32 @@
+{
+  "name": "azul",
+  "version": "1.0.0",
+  "description": "Online, multiplayer version of the board game Azul",
+  "main": "./src/index.jsx",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "dev:client": "webpack serve"
+  },
+  "keywords": [],
+  "author": "Beth Qiang",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "html-webpack-plugin": "^5.0.0-alpha.15",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
